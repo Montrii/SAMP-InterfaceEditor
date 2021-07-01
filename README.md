@@ -12,7 +12,7 @@ You will be able to download this project by simply downloading this repository.
 MIT
 
 ## Notable Credits
-Robinson (Helped me manage the right memory adresses + taught me to handle CheatEngine)
+Robinson - Memory Adresses + CheatEngine
 
 ## Creator
 Montri
