@@ -1,0 +1,21 @@
+interface connection
+    -- implements cqueues polling interface
+    const pollfd: (self) -> (nil)|(integer) -- TODO: cqueues condition
+    const events: (self) -> (nil)|(string|integer)
+    const timeout: (self) -> (nil)|(number)
+
+    const checktls: (self) -> (nil)|(any) -- TODO: luaossl SSL object
+    const localname: (self) -> (integer, string, integer?)|(nil)|(nil, string, number)
+    const peername: (self) -> (integer, string, integer?)|(nil)|(nil, string, number)
+    const onidle: (self, (connection)->()) -> ((connection)->())
+    const connect: (self) -> (true)|(nil)|(nil, string, number)
+    const flush: (self, number) -> (true)|(nil, string, number)
+    const close: (self) -> (true)
+
+    -- Not in connection_common.lua
+    const version: integer
+    -- XXX: needs circular require https://github.com/andremm/typedlua/issues/120
+    -- const new_stream: (self) -> (stream)|(nil) -- Note: in http2 this takes optional id argument
+    -- const get_next_incoming_stream: (self, number?) -> (stream)|(nil)|(nil, string, number)
+    const shutdown: (self) -> (true)
+end

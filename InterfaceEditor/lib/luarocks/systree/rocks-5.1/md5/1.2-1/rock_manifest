@@ -1,0 +1,28 @@
+rock_manifest = {
+   doc = {
+      us = {
+         ["index.html"] = "e7ca9e47236902f7c1e262c547483d8b",
+         ["license.html"] = "cbdc0d5237c7306d45fc09902a20f5ba",
+         ["manual.html"] = "10b567d9c52ad30cf0beea29a797e068",
+         ["md5.png"] = "97de62ff4dbc7d8fa2a64f1d7e3b770d"
+      }
+   },
+   lib = {
+      ["des56.dll"] = "0dd0f15fdcdc391be46cd1d450b80048",
+      md5 = {
+         ["core.dll"] = "40c6d1833f846b4f5691f4ae4475f2e1"
+      }
+   },
+   lua = {
+      ["md5.lua"] = "56cf5537bb8f735198c8636dc6c781ed"
+   },
+   ["md5-1.2-1.rockspec"] = "ee492b84e267d3a30d7f95f4623324f3",
+   tests = {
+      DES56 = {
+         Makefile = "0221d7f7baecd5f9918f9c471bd9c01d",
+         ["fdemo.c"] = "7b1746364cc91b46969966db520e9bd1",
+         ["ftest.c"] = "b095e5a496d85a00b29da054748f5057"
+      },
+      ["test.lua"] = "515532874f7e97a215c2ff558545b5ff"
+   }
+}
