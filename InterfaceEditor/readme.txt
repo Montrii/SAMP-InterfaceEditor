@@ -11,7 +11,9 @@ If you possess all those mods in your GTA, proceed with the following steps:
 Note: If you do not possess any external lua script to reload your folder, while ingame,
 then close your game for the whole process!
 
-1) Place all of the Folder "InterfaceEditor"'s Content into your local moonloader folder.
+1) Put bass.dll, lua51.dll and Moonloader.asi into your root gta folder!
+
+2) Place all of the Folder "InterfaceEditor"'s Content into your local moonloader folder.
     
 3) Use your external reloader or restart your game.
 
