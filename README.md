@@ -13,6 +13,7 @@ MIT
 
 ## Notable Credits
 Robinson - Memory Adresses + CheatEngine
+gta-reversed - IDA Pro 
 
 ## Creator
 Montri
